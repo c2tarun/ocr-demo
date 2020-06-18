@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-sam-ocr"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-49ejior37uyj"
+s3_prefix = "aws_sam_ocr"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
